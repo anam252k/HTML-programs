@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            table4
+        </title>
+
+        <style>
+            table,th,td{
+                border: 2px solid black;
+                border-collapse: collapse;
+            }
+
+            tr:nth-child(even),td:nth-child(even)
+            {
+                background-color: rgba(150, 210, 210, 0.3);
+            }
+
+            th,td{
+                border-color: brown;
+            }
+
+            th,td{
+                padding-top:15px;
+            }
+
+
+            
+        </style>
+        <body>
+            <table style="width:50%">
+                <tr>
+                    <th colspan="4">Title</th>
+                </tr>
+                <tr>
+                    <th colspan="2">Cart1</th>
+                    <th colspan="2">Cart2</th>
+                </tr>
+
+                <tr>
+                    <td>item1</td>
+                    <td>123</td>
+
+                    <td>p1</td>
+                    <td>11</td>
+                </tr>
+
+                <tr>
+                    <td>item2</td>
+                    <td>124</td>
+
+                    <td>p2</td>
+                    <td>12</td>
+                </tr>
+
+                <tr>
+                    <td>item3</td>
+                    <td>125</td>
+
+                    <td>p3</td>
+                    <td>13</td>
+                </tr>
+
+                <tr>
+                    <th colspan="2">Sub subtitle</th>
+                    <th colspan="2">Sub subtitle</th>
+                </tr>
+
+
+            </table>
+        </body>
+    </head>
+</html>

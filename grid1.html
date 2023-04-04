@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GRID TASK</title>
+
+        <style>
+
+            .grid-container{
+                width:90%;
+                display: grid;
+                grid-template-columns: auto auto auto; 
+                gap: 5px;
+                grid-template-rows: auto;
+                background-color:black;
+                margin: 20px;
+                /* position: relative;
+                /* justify-content: center;
+                align-items: center; */
+            }
+
+            .item1{
+                /* width:80%; */
+                border: 1px solid black;
+                padding: 10px;
+                background-color: aquamarine;
+            }
+            
+            /* .item11{
+                grid-column: 1/10;
+            } */
+
+            #h{
+                grid-column: 3 / 6;
+            }
+
+            #i{
+                grid-column: 1 / 6;
+            }
+
+
+        </style>
+
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <div class="item1">a</div>
+            <div class="item1">b</div>
+            <div class="item1">c</div>
+            <div class="item1">d</div>
+            <div class="item1">e</div>
+            <div class="item1">f</div>
+            <div class="item1">g</div>
+            <div class="item1" id="h">h</div>
+            <div class="item1" id="i">i</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid practice</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            display: flex;
+            height: 50px;
+            background-color: brown;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            color: aliceblue;
+        }
+
+        li {
+            padding: 10px;
+        }
+
+        .div {
+            margin: 10px;
+            /* font-size: large; */
+            padding: 10px;
+            color: aliceblue;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: auto auto;
+            gap: 60px;
+            margin: 80px;
+        }
+
+        .item1 {
+            border: 2px solid rgb(95, 162, 218);
+            justify-content: center;
+            align-items: center;
+            border-radius: 20px;
+            padding: 10px;
+            background-color: lightblue;
+        }
+
+        .image {
+            padding: 10px;
+            width: 250px;
+        }
+
+        .but1 {
+            margin: 40px;
+            border: 1px solid black;
+            width: 100px;
+            padding: 5px;
+            background-color: gainsboro;
+        }
+
+        .btn{
+            margin-top: 10px;
+            padding: 5px 30px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <div class="div">Logo</div>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Service</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="grid">
+        <div class="item1">
+            <img src="./2-nature-wallpaper-grass.jpg" alt="sap" class="image">
+            <h3>SAP Training</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+            <center><button class="btn">Done</button></center>
+        </div>
+
+        <div class="item1">
+            <img src="sap training.png" alt="sap" class="image">
+            <h3>SAP Training</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+            <center><button class="btn">Done</button></center>
+        </div>
+
+        <div class="item1">
+            <img src="./download.jpg" alt="sap" class="image">
+            <h3>SAP Training</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+            <center><button class="btn">Done</button></center>
+        </div>
+
+        <div class="item1">
+            <img src="sap training.png" alt="sap" class="image">
+            <h3>SAP Training</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+            <center><button class="btn">Done</button></center>
+        </div>
+
+        <div class="item1">
+            <img src="./wp3121304.jpg" alt="sap" class="image">
+            <h3>SAP Training</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+            <center><button class="btn">Done</button></center>
+        </div>
+
+        <div class="item1">
+            <img src="sap training.png" alt="sap" class="image">
+            <h3>SAP Training</h3><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+            <center><button class="btn">Done</button></center>
+        </div>
+
+    </div>
+</body>
+
+</html>

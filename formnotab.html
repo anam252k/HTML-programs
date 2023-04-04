@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form no table</title>
+        <style>
+
+            div{
+                padding:5px;
+                width: 30%;
+                background-color: rgb(63, 4, 4);
+            }
+
+            .f1{
+                width: 80%;
+                background-color: rgb(132, 23, 23);
+                padding: 10px;
+                margin: 20px;
+            }
+
+            label{
+                color:white;
+                text-align: right;
+            }
+
+            button{
+                width: 300px;
+                height: 30px;
+                text-align: center;
+            }
+
+            /* .task{
+                
+            } */
+
+            /* input{
+                align:right;
+            } */
+        </style>
+    </head>
+
+    <body>
+        <div>
+
+        <form class="f1">
+
+            <!-- <fieldset class="f1"> -->
+            <label for="n1">Name:</label>
+            <input type="text" id="n1" name="fname" placeholder="your name" class="task"><br><br>
+
+            <label for="e1">Email:</label>
+            <input type="text" id="e1" name="mail" placeholder="your email" class="task"><br><br>
+
+            <label for="pw1">Password:</label>
+            <input type="text" id="pw1" name="password" class="task"><br><br>
+
+            <label for="pn1">Phone number:</label>
+            <input type="text" id="pn1" name="phone number" class="task"><br><br>
+
+            <label>Gender:</label>
+
+            <label for="r1">Male:</label>
+            <input type="radio" id="r1" name="Fema1" value="Male">
+
+            <label for="r2">Female:</label>
+            <input type="radio" id="r2" name="Fema1" value="Female">
+
+            <label for="r3">Others:</label>
+            <input type="radio" id="r3" name="Fema1" value="Others"><br><br>
+
+            <label>language:</label>
+            <select id="lan" name="language">
+                <option>Select language</option>
+                <option value="English">English</option>
+                <option value="Marathi">Marathi</option>
+                <option value="Hindi">Hindi</option>
+                <option value="Urdu">Urdu</option>
+            </select><br><br>
+
+            <label for="zc1">Zip Code:</label>
+            <input type="text" id="zc1" name="zip code"><br><br>
+
+            <label>About:</label>
+            <textarea name="area" rows="2" cols="30" placeholder="Write about yourself">
+            </textarea><br><br>
+
+            <!-- <input type="button"  -->
+
+            <button>Register</button>
+            
+        <!-- </fieldset> -->
+
+        </form>
+
+    </div>
+
+    </body>
+</html>
+

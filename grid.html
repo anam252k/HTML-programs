@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>grid</title>
+
+        <style>
+
+
+            .flex-container{
+             display: flex;
+             background-color: rgb(228, 193, 193);
+             justify-content: right;
+             border-radius: 5px;
+            }
+
+            #one{
+            position: absolute;
+            left: 5px;
+            }
+
+            
+            .grid{
+                display: grid;
+                width: 80%;
+                margin: 50px;
+                grid-template-columns:  auto auto auto;
+                gap: 30px ;
+                grid-template-rows: auto auto;
+                /* background-color: red; */
+            }
+
+
+            .item{
+                border: 1px solid;
+                border-radius: 20px;
+                justify-content: center;
+                align-items: center;
+                /* background-color: aqua; */
+            }
+
+            .image{
+                padding: 10px;
+                width: 100px;
+            }
+
+            .hov:hover{
+    background-color: rgb(237, 232, 232);
+}
+
+            .but1{
+    margin: 30px;
+    border: 1px solid black;
+    width: 100px;
+    padding: 5px;
+    background-color: gainsboro;
+
+           
+}
+        </style>
+    </head>
+
+    <body>
+
+        <div class="flex-container">
+            <img src="education.png" alt="logo" style="width:45px; height:45px;" id="one" title="logo">
+            <div class="hov" title="Home">Home</div>
+            <div class="hov" title="Services">Services</div>
+            <div class="hov" title="Contact">Contact</div>
+            <div class="hov" title="About us">About us</div>
+        </div>
+
+        <center> <div class="grid">
+           <div class="item">
+                <img src="sap training.png" alt="sap" class="image">
+                <h3>SAP Training</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+                <!-- <button class="but1">Read More</button> -->
+                <div class="but1">Read More...</div>
+            </div>
+        
+
+            <div class="item">
+                <img src="sap training.png" alt="sap" class="image">
+                <h3>SAP Training</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+                <!-- <button class="but1">Read More</button> -->
+                <div class="but1">Read More...</div></div>
+
+            <div class="item">
+                <img src="sap training.png" alt="sap" class="image">
+                <h3>Oracle Training</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+                <!-- <button class="but1">Read More</button> -->
+                <div class="but1">Read More...</div></div>
+
+            <div class="item">
+                <img src="sap training.png" alt="sap" class="image">
+                <h3>IBM Training</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+                <!-- <button class="but1">Read More</button> -->
+                <div class="but1">Read More...</div></div>
+
+            <div class="item">
+                <img src="sap training.png" alt="sap" class="image">
+                <h3>Online Training</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+                <!-- <button class="but1">Read More</button> -->
+                <div class="but1">Read More...</div></div>
+
+            <div class="item">
+                <img src="sap training.png" alt="sap" class="image">
+                <h3>SAP Training</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, illo.</p><br>
+                <!-- <button class="but1">Read More</button> -->
+                <div class="but1">Read More...</div></div>
+
+        </div>
+    </center>
+    </body>
+    </html>

@@ -1,0 +1,50 @@
+#task{
+    border: 1px solid black;
+    padding: 20px;
+    width: 350px;
+    height: 250px;
+    margin: 50px; 
+}
+
+#one{
+    width:100px;
+    height:100px;
+    background-color: aqua;
+    display: inline-block;
+    position: relative;
+    top: 30px;
+    left: 30px
+}
+
+#two{
+    width:100px;
+    height:100px;
+    background-color: blue;
+    display: inline-block;
+    position:fixed;
+    top:0;
+    left:0;
+    color: aliceblue;
+}
+
+#three{
+    width:100px;
+    height:100px;
+    background-color: brown;
+    display: inline-block;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+#four{
+    width:100px;
+    height:100px;
+    background-color: navajowhite;
+    display: inline-block;
+    position:sticky;
+    top:0;
+    right:0;
+
+}
+

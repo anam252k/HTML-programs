@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .flex-container{
+            display: flex;
+            width: 100%;
+            height: 550px;
+            justify-content: center;
+            padding: 20px;
+            background-color:  #9b2c5a;
+        }
+
+        table {
+            width: 100px;
+            border: 1px solid #000000;
+            background-color: #6d0430;
+            margin: 0px 20px 20px;
+            padding: 20px;
+        }
+
+        tr,
+        td {
+            color: white;
+            padding: 10px;
+        }
+
+        #but {
+            width: 500%;
+            height: 30px;
+        }
+
+        /* div {
+            background-color:  #9b2c5a;
+            width: 100%;
+            padding-left: 20px; 
+            padding-bottom: 20px;
+            padding-top: 0%;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <table>
+            <form>
+                <tr>
+                    <!-- <fieldset class="f1"> -->
+                    <td><label for="n1">Name:</label></td>
+                    <td><input type="text" id="n1" name="fname" placeholder="your name" class="task"></td><br><br>
+                </tr>
+                <tr>
+                    <td><label for="e1">Email:</label></td>
+                    <td><input type="text" id="e1" name="mail" placeholder="your email" class="task"></td><br><br>
+                </tr>
+                <tr>
+                    <td><label for="pw1">Password:</label></td>
+                    <td><input type="text" id="pw1" name="password" class="task"></td><br><br>
+                </tr>
+                <tr>
+                    <td><label for="pn1">Phone number:</label></td>
+                    <td><input type="text" id="pn1" name="phone number" class="task"></td><br><br>
+                </tr>
+
+                <tr>
+                    <td><label>Gender:</label></td>
+                    <td colspan="3"><label for="r1">Male:</label>
+                        <input type="radio" id="r1" name="Fema1" value="Male">
+                        <label for="r2">Female:</label>
+                        <input type="radio" id="r2" name="Fema1" value="Female">
+                        <label for="r3">Others:</label>
+                        <input type="radio" id="r3" name="Fema1" value="Others">
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td><label>language:</label></td>
+                    <td><select id="lan" name="language">
+                            <option>Select language</option>
+                            <option value="English">English</option>
+                            <option value="Marathi">Marathi</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Urdu">Urdu</option>
+                        </select></td><br><br>
+                </tr>
+
+                <tr>
+                    <td><label for="zc1">Zip Code:</label></td>
+                    <td><input type="text" id="zc1" name="zip code"></td><br><br>
+                </tr>
+
+                <tr>
+                    <td><label>About:</label></td>
+                    <td><textarea name="area" rows="2" cols="30" placeholder="Write about yourself..">
+            </textarea></td><br><br>
+                </tr>
+
+
+                <tr>
+                    <td>
+                        <button id="but">Register</button>
+                    </td>
+                </tr>
+
+
+            </form>
+        </table>
+    </div>
+</body>
+
+</html>
